@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+.form-container {
+  width: 500px;
+  height: 600px;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.form-title {
+  font-weight: 400;
+  font-size: 35px;
+  color: #2a414f;
+}
+.input-group label {
+  display: block;
+  color: #2a414f;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+.input-group input {
+  width: 415px;
+  height: 55px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.login-btn {
+  width: 415px;
+  height: 55px;
+  border: none;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 21px;
+  color: #0e161a;
+}
+.new-account-title {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  color: #2a414f;
+}
+.create-account-title {
+  color: #ff9900;
+  text-decoration: none;
+}
+.or-login-option {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 17px;
+  color: #95a0a7;
+  text-align: center;
+  position: relative;
+}
+.or-login-option::after {
+  right: 26px;
+  position: absolute;
+  content: "";
+  width: 145px;
+  height: 1px;
+  background: #a79595;
+  top: 13px;
+}
+.or-login-option::before {
+  position: absolute;
+  content: "";
+  width: 145px;
+  height: 1px;
+  background: #a79595;
+  top: 13px;
+  left: 26px;
+}
+.signin-with-google {
+  width: 415px;
+  height: 55px;
+  background: #ffffff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  color: #2a414f;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+}
+.signin-with-google img {
+  width: 32px;
+  height: 32px;
+  text-align: center;
+}
